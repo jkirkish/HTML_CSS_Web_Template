@@ -1,0 +1,70 @@
+body{
+	background-color: #4912f6;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-thickness: auto;
+}
+input[type='button']{
+	border: 0px;
+	border-style: none;
+	border-radius: 23px;
+	color: #ffffff;
+	font-weight: 700;
+	padding: 10px 25px;
+	background: linear-gradient(to right, #ea9e3d , #ee7d38);
+	
+}
+.w3-container{
+	margin-left: 20px;
+}
+
+.header{
+	display:flex;
+	align-items: center;
+	
+}
+.section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+.copy-1 {
+
+	flex: 0 0 450px;
+	color: #c9b8fc;
+	z-index: 1;
+	margin-right: -67px;
+	margin-top: 43px;
+}
+h1{
+	font-size: 39px;
+}
+h2{
+	font-size: 28px;
+	font-weight: 500;
+}
+.picture-1{
+	flex: 0 1 900px;
+	z-index: 0;
+}
+.section-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
+.patented-tech{
+	flex: 0 1 500px;
+	margin-right: 50px;
+}
+.brain-and-behavior{
+	flex: 0 1 400px;
+}
